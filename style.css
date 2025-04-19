@@ -1,0 +1,55 @@
+.nav{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #006A71;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+}
+
+#myh1{
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+ }
+
+footer{
+    margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#006A71;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+
+}
+body{
+    background-color:#F2EFE7;
+}
+.thcls{
+    background-color: #9ACBD0;
+}
+
+*{
+  font-family: sans-serif;
+}
+
